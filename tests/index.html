@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,user-scalable=no,minimal-ui" />
+    </head>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #canvas-holder {
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <body>
+       <div id="canvas-holder">
+         <canvas id="canvas"></canvas>
+       </div>
+    </body>
+    <script>
+      const c = document.getElementById("canvas");
+      const ctx = c.getContext("2d");
+      ctx.fillStyle = "red";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      console.log("log 1");
+      console.log("log 2");
+      console.log("log 3");
+      console.log("log 4");
+      setTimeout(() => {
+          console.log("log 5");
+      }, 1000);
+    </script>
+</html>
