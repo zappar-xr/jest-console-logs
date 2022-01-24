@@ -1,2 +1,2 @@
 /* eslint-disable import/prefer-default-export */
-export { expectLogs, waitForLogs, expectSequential } from './logs';
+export { expectLogs, waitForLogs, expectSequential } from "./logs";

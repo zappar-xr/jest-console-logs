@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.1] - 2022-01-24
+
+- Updated dependencies
+
 ## [1.0.0-rc.1] - [1.0.0]  - 2021-06-28
 
 - Package renamed to `@zappar/jest-console-logs`.

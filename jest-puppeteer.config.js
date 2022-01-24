@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   server: {
-    command: 'npm run serve',
+    command: "npm run serve",
     port: 8085,
     launchTimeout: 60000,
   },
