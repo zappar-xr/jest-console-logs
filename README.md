@@ -21,7 +21,7 @@ You can find some examples in action over at <https://github.com/zappar-xr/jest-
          * [Expecting Console Logs (Unordered)](#expecting-console-logs-unordered)
          * [Waiting for console logs](#waiting-for-console-logs)
 
-<!-- Added by: zapparadmin, at: Tue Feb  1 16:53:00 GMT 2022 -->
+<!-- Added by: zapparadmin, at: Tue Feb  1 17:00:10 GMT 2022 -->
 
 <!--te-->
 </details>
