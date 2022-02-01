@@ -18,7 +18,7 @@ module.exports = {
   },
   plugins: [],
   devServer: {
-    static: "../dist",
+    static: '../dist',
   },
   module: {
     rules: [

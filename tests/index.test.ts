@@ -1,9 +1,9 @@
-import * as util from "../src/index";
 /* eslint-disable no-promise-executor-return */
 /* eslint-disable max-len */
 /* eslint-disable no-undef */
 
 jest.setTimeout(30000);
+import * as util from "../src";
 
 const url = "http://127.0.0.1:8085/index.html";
 describe("tests", () => {
@@ -42,7 +42,7 @@ describe("tests", () => {
         page,
       });
     } catch (e: any) {
-      expect(e.message).toEqual("Could not find expected console logs: log 35");
+      expect(e.message).toEqual('Could not find expected console logs: log 35');
     }
     await new Promise((resolve) => setTimeout(resolve, 1000));
     await page.close();
